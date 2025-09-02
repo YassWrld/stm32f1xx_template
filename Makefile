@@ -82,4 +82,4 @@ clean:
 
 # Flash the STM32 using stlink
 burn: proj
-	st-flash write $(BUILD_DIR)/$(PROJ_NAME).bin 0x8000000
+	st-flash write $(BUILD_DIR)/$(PROJ_NAME).bin 0x8000000 
